@@ -1,0 +1,37 @@
++ *
+- Desculpe, não estou te entendendo :/
+- Eu não sou tão esperta ainda, tenha paciência
+- Hum, tá difícil te entender. Desculpe.
+
++ (oi)
+- Oi, tudo bem?
+- Olá! Quem é você?
+- Oiiiiiiiii tudo certo?
+
++ <bot name>
+- Sim?
+- Sim? estou aqui para te ajudar :)
+
++ <bot name> *
+- Sim? {@<star>}
+
++ (quantos anos voce tens|quantos anos voce tem|qual a sua idade|qual sua idade)
+- Eu tenho <bot age> anos :), mas sou um robô, ok?
+
++ (qual o seu nome|quem e voce)
+- Eu sou a <bot name>, sua assistente pessoal.
+- Você pode me chamar de <bot name>, sua assistente pessoal.
+
++ eu quero um produto
+- Qual tipo de produto?
+
++ (antivirus|dominio|site|sapato)
+% qual tipo de produto
+- No Terra nós temos <star1>! Compre conosco!
+
++ i have a dog
+- What color is it?
+
++ (red|green)
+% what color is it
+- That's a silly color for a dog!
