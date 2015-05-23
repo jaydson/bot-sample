@@ -3,10 +3,12 @@
 - Eu não sou tão esperta ainda, tenha paciência
 - Hum, tá difícil te entender. Desculpe.
 
-+ (oi)
++ oi
 - Oi, tudo bem?
-- Olá! Quem é você?
-- Oiiiiiiiii tudo certo?
+
++ (*tudo*|tudo certo|sim)
+% oi tudo bem
+- Fico feliz com isso :)
 
 + <bot name>
 - Sim?
@@ -15,10 +17,13 @@
 + <bot name> *
 - Sim? {@<star>}
 
++ voce gosta de *
+- Ainda não experimentei <star1> :)
+
 + (quantos anos voce tens|quantos anos voce tem|qual a sua idade|qual sua idade)
 - Eu tenho <bot age> anos :), mas sou um robô, ok?
 
-+ (qual o seu nome|quem e voce)
++ (qual [o] seu nome|quem e voce)
 - Eu sou a <bot name>, sua assistente pessoal.
 - Você pode me chamar de <bot name>, sua assistente pessoal.
 
