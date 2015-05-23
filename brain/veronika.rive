@@ -6,12 +6,17 @@
 + oi
 - Oi, tudo bem?
 
++ (tchau|ate mais|vou embora)
+- Tchau! Não me abandone por muito tempo
+- Até mais meu amigo :)
+- Volte logo, sinto saudades
+
 + (tudo|tudo certo|sim)
 % oi tudo bem
 - Fico feliz com isso :)
 
 + [o] que voce faz
-- Eu sou uma robô que tu ajuda a navegar no Terra
+- Eu sou uma robô que te ajuda a navegar no Terra
 - Eu sou sua ajudante, posso te ajudar na Internet
 
 + onde voce trabalha
@@ -41,10 +46,3 @@
 + (antivirus|dominio|site|sapato)
 % qual tipo de produto
 - No Terra nós temos <star1>! Compre conosco!
-
-+ i have a dog
-- What color is it?
-
-+ (red|green)
-% what color is it
-- That's a silly color for a dog!
