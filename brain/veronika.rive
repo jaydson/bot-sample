@@ -22,7 +22,7 @@
 - Eu sou a <bot name>, sua assistente pessoal.
 - Você pode me chamar de <bot name>, sua assistente pessoal.
 
-+ eu quero um produto
++ quero [(um|1)] produto
 - Qual tipo de produto?
 
 + (antivirus|dominio|site|sapato)

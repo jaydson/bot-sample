@@ -21,23 +21,27 @@
 		.last_message {
 			background: yellow;
 			padding: 4px;
-			border-radius: 3.5em;
+			border-radius: 0.5em;
 		}
 		.message {
 			background: #D2DA57;
 			padding: 4px;
-			border-radius: 3.5em;
+			border-radius: 0.5em;
+		}
+		.version {
+			font-size: 2em;
 		}
 	</style>
 </head>
 <body>
+	<div class="version">Veronika 0.0.1</div>
 	<div class="veronika_container">
 		<img src="img/veronika.png">	
 	</div>
 	
 	<div class="chat">
 		<div>
-			<input id="question" type="text" />
+			<input id="question" type="text" x-webkit-speech />
 			<button id="ask">Ok</button>
 			<br />
 			<div style="margin-top:15px" id="history"></div>
