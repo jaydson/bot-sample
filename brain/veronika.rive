@@ -6,9 +6,17 @@
 + oi
 - Oi, tudo bem?
 
-+ (*tudo*|tudo certo|sim)
++ (tudo|tudo certo|sim)
 % oi tudo bem
 - Fico feliz com isso :)
+
++ [o] que voce faz
+- Eu sou uma robô que tu ajuda a navegar no Terra
+- Eu sou sua ajudante, posso te ajudar na Internet
+
++ onde voce trabalha
+- No Terra. Na verdade, dentro do computador :)
+- Eu trabalho no Terra, o portal mais legal da internet
 
 + <bot name>
 - Sim?
