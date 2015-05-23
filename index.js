@@ -10,6 +10,12 @@ app.use(function(req, res, next) {
 	next();
 });
 
+app.use(express.static('sample'));
+
+app.get('/demo', function(req, res) {
+	res.sendFile('index.html', { root: __dirname + '/sample/' });
+});
+
 app.get('/ask/:question', function (req, res) {
 	var question = req.params.question;
 	bot.loadDirectory("./brain", function(data) {

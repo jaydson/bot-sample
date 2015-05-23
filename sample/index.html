@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Veronika sample</title>
+	<style type="text/css">
+		.veronika_container {
+			float: left;
+		}
+		.chat {
+			float: left;
+			padding: 15px;
+			background: #FF7212 none repeat scroll 0% 0%;
+			border-radius: 0.3em;
+			border: 2px solid #000;
+			margin-left: 32px;
+			margin-top: 10px;
+			height: 311px;
+			overflow: auto;
+			width: 310px;
+		}
+		.last_message {
+			background: yellow;
+			padding: 4px;
+			border-radius: 3.5em;
+		}
+		.message {
+			background: #D2DA57;
+			padding: 4px;
+			border-radius: 3.5em;
+		}
+	</style>
+</head>
+<body>
+	<div class="veronika_container">
+		<img src="img/veronika.png">	
+	</div>
+	
+	<div class="chat">
+		<div>
+			<input id="question" type="text" />
+			<button id="ask">Ok</button>
+			<br />
+			<div style="margin-top:15px" id="history"></div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		function ask() {
+			$.ajax({
+				url: "/ask/" + $('#question').val(),
+				success: function(data) {
+					$("#history div:eq(0)").removeClass('last_message').addClass('message');
+					var olddata = $("#history").html() || '';
+					$("#history").html('<div>' + data.answer + '</div><br>' + olddata);
+					$("#history div:eq(0)").first().addClass('last_message');
+				}
+			});
+		}
+		$('#question').keypress(function (e) {
+			if (e.which == 13) {
+				ask();
+			}
+		});
+		$('#ask').on('click', function(event) {
+			ask();
+		});
+	</script>
+</body>
+</html>
